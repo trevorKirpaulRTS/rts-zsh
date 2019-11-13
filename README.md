@@ -10,3 +10,8 @@ Antigen:
 antigen bundle trevorKirpaulRTS/rts-zsh
 ```
 
+## Commands
+
+| name | description  |
+| ---- | ------------ |
+| rts  | test command |

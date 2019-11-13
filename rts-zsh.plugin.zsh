@@ -4,5 +4,5 @@
 
 # sorted alphabetically
 
-alias rts="Hello, this is the first command"
+alias rts="echo Hello, this is the first command"
 

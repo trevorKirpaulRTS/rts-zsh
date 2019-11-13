@@ -12,6 +12,7 @@ antigen bundle trevorKirpaulRTS/rts-zsh
 
 ## Commands
 
-| name | description  |
-| ---- | ------------ |
-| rts  | test command |
+| name    | description                                                                    |
+| ------- | ------------------------------------------------------------------------------ |
+| rts     | test command                                                                   |
+| rnClean | runs a series of commands to clear watchman and package files for a RN project |

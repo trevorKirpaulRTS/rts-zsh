@@ -1,4 +1,4 @@
-# rst-zsh
+# rts-zsh
 
 This is a ZSH plugin containing helpful aliases for RTS projects.
 

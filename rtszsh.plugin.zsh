@@ -1,4 +1,4 @@
-. /utils/colors.sh
+. ./utils/colors.sh
 
 #################################
 # ALIASES                       #

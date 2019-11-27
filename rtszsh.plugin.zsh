@@ -27,13 +27,13 @@ _rts-zsh() {
       exit
     fi
 
-    if [[ $2 == "rnCleanYarn "]]; then
+    if [[ $2 == "rnCleanYarn" ]]; then
       echo "${CYAN}rnCleanYarn \n${PURPLE}This command is exactly like ${CYAN}rnClean ${PURPLE}except it will use the yarn package manager instead of npm"
       return
       exit
     fi
 
-    if [[ $2 == "expoClean "]]; then
+    if [[ $2 == "expoClean" ]]; then
       echo "${CYAN}expoClean \n${PURPLE}This command can be used to clear cached packages and build artifacts when working on an ${CYAN}expo ${PURPLE}project. \nThis command will run the following: \n- watchman watch-del-all \n- rm -rf node_modules \n- yarn install \n- rm -rf /tmp/metro-bundler-cache-* \n- rm -rf /tmp/haste-map-react-native-packager-* \n- echo expoClean: Complete"
       return
       exit

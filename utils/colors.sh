@@ -9,3 +9,4 @@ RED='\033[${_RED}m'
 CYAN='\033[${_CYAN}m'
 YELLOW='\033[${YELLOW}m'
 PURPLE='\033[${_PURPLE}m'
+NC='\033[0m' # No Color

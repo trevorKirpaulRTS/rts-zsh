@@ -19,7 +19,7 @@ alias rnCleanYarn="watchman watch-del-all && rm -rf $TMPDIR/react-native-package
 source ./help/definitions
 
 # main function for package which handles help functionality
-rts-zsh() {
+_rts-zsh() {
   if [[ $1 == "-h"]]; then
     if [[ $2 === "rnClean" ]]; then
       echo HELP_MESSAGE_rnClean
@@ -29,3 +29,5 @@ rts-zsh() {
     echo "Example: rts-zsh -h rnClean"
   fi
 }
+
+alias rts-zsh=_rts-zsh

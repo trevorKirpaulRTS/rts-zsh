@@ -1,3 +1,5 @@
+. /utils/colors.sh
+
 #################################
 # ALIASES                       #
 #################################
@@ -20,7 +22,7 @@ alias rnCleanYarn="watchman watch-del-all && rm -rf $TMPDIR/react-native-package
 _rts-zsh() {
   if [[ $1 == "-h" ]]; then
     if [[ $2 == "rnClean" ]]; then
-      echo "**rnClean** is used to clean your react native project. It will remove packages, clear the cache, ect"
+      echo "${RED}rnClean \n This is used to clean your react native project. It will remove packages, clear the cache, ect"
       return
       exit
     fi

@@ -16,13 +16,11 @@ alias rnCleanYarn="watchman watch-del-all && rm -rf $TMPDIR/react-native-package
 # FUNCTIONS                     #
 #################################
 
-source ./help/definitions.sh
-
 # main function for package which handles help functionality
 _rts-zsh() {
   if [[ $1 == "-h" ]]; then
     if [[ $2 == "rnClean" ]]; then
-      alias | grep HELP_MESSAGE_rnClean
+      echo "**rnClean** is used to clean your react native project. It will remove packages, clear the cache, ect"
       return
       exit
     fi

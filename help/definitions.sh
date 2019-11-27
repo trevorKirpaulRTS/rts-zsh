@@ -1,1 +1,0 @@
-alias HELP_MESSAGE_rnClean="**rnClean** is used to clean your react native project. It will remove packages, clear the cache, ect"

@@ -23,6 +23,8 @@ _rts-zsh() {
   if [[ $1 == "-h" ]]; then
     if [[ $2 == "rnClean" ]]; then
       echo HELP_MESSAGE_rnClean
+      return
+      exit
     fi
 
     echo "Error: Please enter a command as the second arg"
